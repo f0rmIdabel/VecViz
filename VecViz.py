@@ -280,10 +280,10 @@ if __name__ == '__main__':
         f = input("\nChoose between datasets:\n\n    1. metsim\n    2. isabel\n\nChoice: ")
 
         if f == '1':
-            field = VecViz2D(metsim)
+            field = VecViz(metsim)
 
         elif f == '2':
-            field = VecViz2D(isabel)
+            field = VecViz(isabel)
 
         else:
             print("\nNo dataset chosen. Try again.")
